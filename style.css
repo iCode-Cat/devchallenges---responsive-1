@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+.title {
+    font-family: Inconsolata;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    margin: 2rem 0 0 2.4rem;
+}
+
+.person {
+    width: 100%;
+    max-width: 286px;
+    margin: 6.4rem 0 0 4.4rem;
+}
+
+.hero-text {
+color: var(--gray-1, #333);
+font-family: Space Mono;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.68px; 
+margin: 6rem 0 0 2.4rem;
+}
+.hero-text-sub {
+color: var(--gray-2, #4F4F4F);
+font-family: Space Mono;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.63px;
+margin: 3rem 2.4rem 0 2.4rem;
+}
+
+#back {
+font-family: Space Mono;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.49px;
+text-transform: uppercase;
+outline: none;
+border: 0;
+margin: 6.6rem 0 15.5rem 2.4rem;
+background: rgba(51, 51, 51, 1) ;
+color: rgba(255, 255, 255, 1);
+padding: 2.4rem 4.3rem;
+
+}
+
+
+@media (min-width:800px) {
+    body {
+        height: 101vh;
+    }
+    .title {
+        margin: 4rem 0 0 7.7rem;
+    }
+    .hero {
+       text-align: center;
+       margin-top: 20rem;
+   
+    }
+   .wrapper-1 {
+    display: inline-block;
+   }
+   .wrapper-2 {
+    display: inline-block;
+    vertical-align:top;
+  
+    text-align: left;
+    margin-left: 18.8rem;
+   }
+    .person {
+        margin: 0;
+        max-width: 539.224px; 
+    }
+    .hero-text {
+        font-size: 64px; 
+        letter-spacing: -2.24px; 
+        margin: 0;
+        width: 100%;
+        max-width: 586px;
+    }
+    .hero-text-sub {
+        width: 100%;
+        max-width: 381px;
+        font-size: 24px; 
+        letter-spacing: -0.84px; 
+        margin: 3.6rem 0 0 0;
+    }
+    #back {
+        margin: 8.8rem 0 0 0;
+        color: #FFF;
+font-family: Space Mono;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.49px;
+text-transform: uppercase;
+    }
+}
